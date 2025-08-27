@@ -76,6 +76,36 @@
    background-color: #003d80;
 }
 
+.list {
+   list-style: none;
+   padding: 0;
+}
+
+.list__item {
+   padding: 10px;
+   border: 1px solid #ccc;
+   margin-bottom: 5px;
+}
+
+.list__item:first-child {
+   background-color: #e0f7fa;
+   font-weight: bold;
+}
+
+.list__item:last-child {
+   background-color: #ffe0b2;
+   font-style: italic;
+}
+
+.list__item:nth-child(even) {
+   background-color: #f1f1f1;
+}
+
+.list__item:nth-child(3) {
+   background-color: #d1c4e9;
+   color: #fff;
+}
+
 
 
 
