@@ -20,3 +20,13 @@
    background-color: #e9e9e9;
 }
 
+.list-item:first-child {
+   font-weight: bold;
+}
+
+.list-item:last-child {
+   color: #ff0000;
+}
+
+
+
