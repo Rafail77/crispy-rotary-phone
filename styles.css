@@ -1,109 +1,109 @@
 .button:hover {
-   background-color: #0056b3;
-   color:aliceblue;
+   background-color: #0056b3; /* При наведении кнопка .button становится синей */
+   color: aliceblue; /* Цвет текста меняется на светло-голубой */
 }
 
 .button1:active {
-   background-color: rgba(34,75,108,1);
-   color: red;
+   background-color: rgba(34,75,108,1); /* При нажатии кнопка .button1 окрашивается в глубокий синий */
+   color: red; /* Цвет текста меняется на красный */
 }
 
 .input:focus {
-   border-color: #007bff;
+   border-color: #007bff; /* Когда поле ввода активно (курсор внутри), меняется цвет рамки */
 }
 
 .list-item:nth-child(odd) {
-   background-color: #f9f9f9;
+   background-color: #f9f9f9; /* Нечетные элементы списка окрашены в светло-серый */
 }
 
 .list-item:nth-child(even) {
-   background-color: #e9e9e9;
+   background-color: #e9e9e9; /* Четные элементы списка окрашены в чуть более темный серый */
 }
 
 .list-item:first-child {
-   font-weight: bold;
+   font-weight: bold; /* Первый элемент списка выделен жирным */
 }
 
 .list-item:last-child {
-   color: #ff0000;
+   color: #ff0000; /* Последний элемент списка окрашен в красный */
 }
 
 .form {
-   max-width: 400px;
-   margin: 0 auto;
-   padding: 16px;
-   border: 1px solid #ccc;
-   border-radius: 8px;
-   background-color: #f9f9f9;
+   max-width: 400px; /* Максимальная ширина формы 400px */
+   margin: 0 auto; /* Центрирование формы по горизонтали */
+   padding: 16px; /* Внутренние отступы */
+   border: 1px solid #ccc; /* Серая рамка */
+   border-radius: 8px; /* Скругленные углы */
+   background-color: #f9f9f9; /* Светлый фон формы */
 }
 
 .form__label {
-   display: block;
-   margin-bottom: 8px;
+   display: block; /* Подписи отображаются как блочные элементы */
+   margin-bottom: 8px; /* Отступ снизу */
 }
 
 .form__input {
-   width: 100%;
-   padding: 8px;
-   margin-bottom: 16px;
-   border: 1px solid #ccc;
-   border-radius: 4px;
-   box-sizing: border-box;
+   width: 100%; /* Ширина поля равна ширине формы */
+   padding: 8px; /* Внутренний отступ */
+   margin-bottom: 16px; /* Отступ снизу */
+   border: 1px solid #ccc; /* Серая рамка */
+   border-radius: 4px; /* Скругленные углы */
+   box-sizing: border-box; /* Учитываем padding и border в общей ширине */
 }
 
 .form__input:focus {
-   border-color: #007bff;
-   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+   border-color: #007bff; /* При фокусе рамка становится синей */
+   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Подсветка синей тенью */
 }
 
 .form__button {
-   width: 100%;
-   padding: 10px;
-   border: none;
-   border-radius: 4px;
-   background-color: #007bff;
-   color: #fff;
-   font-size: 16px;
-   cursor: pointer;
-   transition: background-color 0.3s;
+   width: 100%; /* Кнопка растягивается на всю ширину формы */
+   padding: 10px; /* Внутренние отступы */
+   border: none; /* Без рамки */
+   border-radius: 4px; /* Скругленные углы */
+   background-color: #007bff; /* Синий фон */
+   color: #fff; /* Белый текст */
+   font-size: 16px; /* Размер шрифта */
+   cursor: pointer; /* При наведении курсор меняется на "руку" */
+   transition: background-color 0.3s; /* Плавное изменение цвета */
 }
 
 .form__button:hover {
-   background-color: #0056b3;
+   background-color: #0056b3; /* При наведении фон становится темнее */
 }
 
 .form__button:active {
-   background-color: #003d80;
+   background-color: #003d80; /* При нажатии фон ещё темнее */
 }
 
 .list {
-   list-style: none;
-   padding: 0;
+   list-style: none; /* Убираем стандартные маркеры списка */
+   padding: 0; /* Убираем отступы */
 }
 
 .list__item {
-   padding: 10px;
-   border: 1px solid #ccc;
-   margin-bottom: 5px;
+   padding: 10px; /* Внутренние отступы */
+   border: 1px solid #ccc; /* Серая рамка */
+   margin-bottom: 5px; /* Отступ между элементами */
 }
 
 .list__item:first-child {
-   background-color: #e0f7fa;
-   font-weight: bold;
+   background-color: #e0f7fa; /* Первый элемент голубой */
+   font-weight: bold; /* Жирный текст */
 }
 
 .list__item:last-child {
-   background-color: #ffe0b2;
-   font-style: italic;
+   background-color: #ffe0b2; /* Последний элемент оранжевый */
+   font-style: italic; /* Курсив */
 }
 
 .list__item:nth-child(even) {
-   background-color: #f1f1f1;
+   background-color: #f1f1f1; /* Четные элементы серые */
 }
 
 .list__item:nth-child(3) {
-   background-color: #d1c4e9;
-   color: #fff;
+   background-color: #d1c4e9; /* Третий элемент фиолетовый */
+   color: #fff; /* Белый текст */
 }
 
 
